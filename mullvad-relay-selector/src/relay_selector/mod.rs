@@ -8,12 +8,11 @@ pub mod query;
 
 use chrono::{DateTime, Local};
 use itertools::Itertools;
-use once_cell::sync::Lazy;
 use query::ObfuscationQuery;
 use rand::{seq::IteratorRandom, thread_rng};
 use std::{
     path::Path,
-    sync::{Arc, Mutex},
+    sync::{Arc, LazyLock, Mutex},
     time::SystemTime,
 };
 
@@ -52,7 +51,7 @@ use self::{
 /// preferences. See [the documentation on `RelayQuery`][RelayQuery] for further details.
 ///
 /// This list should be kept in sync with the expected behavior defined in `docs/relay-selector.md`
-pub static RETRY_ORDER: Lazy<Vec<RelayQuery>> = Lazy::new(|| {
+pub static RETRY_ORDER: LazyLock<Vec<RelayQuery>> = LazyLock::new(|| {
     use query::builder::{IpVersion, RelayQueryBuilder};
     vec![
         // 1
@@ -68,11 +67,7 @@ pub static RETRY_ORDER: Lazy<Vec<RelayQuery>> = Lazy::new(|| {
             .ip_version(IpVersion::V6)
             .build(),
         // 4
-        RelayQueryBuilder::new()
-            .openvpn()
-            .transport_protocol(TransportProtocol::Tcp)
-            .port(443)
-            .build(),
+        RelayQueryBuilder::new().wireguard().shadowsocks().build(),
         // 5
         RelayQueryBuilder::new().wireguard().udp2tcp().build(),
         // 6
@@ -82,6 +77,12 @@ pub static RETRY_ORDER: Lazy<Vec<RelayQuery>> = Lazy::new(|| {
             .ip_version(IpVersion::V6)
             .build(),
         // 7
+        RelayQueryBuilder::new()
+            .openvpn()
+            .transport_protocol(TransportProtocol::Tcp)
+            .port(443)
+            .build(),
+        // 8
         RelayQueryBuilder::new()
             .openvpn()
             .transport_protocol(TransportProtocol::Tcp)
