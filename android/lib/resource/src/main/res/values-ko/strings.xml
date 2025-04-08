@@ -113,7 +113,7 @@
     <string name="daita_description_slide_1_third_paragraph">정교한 AI를 사용하면, 트래픽이 암호화된 경우라도 장치를 드나드는 데이터 패킷의 트래픽을 분석하는 것이 가능합니다.</string>
     <string name="daita_description_slide_2_first_paragraph">이러한 데이터 패킷을 모니터링하고 있는 관찰자가 있는 경우, %1$s는 사용자가 어느 웹사이트를 방문하고 있는지, 누구와 대화하고 있는지 아주 식별하기 어렵게 만듭니다.</string>
     <string name="daita_description_slide_2_second_paragraph">%1$s는 정교하게 네트워크 노이즈를 추가하고 모든 네트워크 패킷을 동일한 크기로 만들어 이를 달성합니다.</string>
-    <string name="daita_description_slide_2_third_paragraph">일부 서버에는 %1$s가 활성화되어 있지 않습니다. 따라서 당사는 모든 서버에서 %2$s를 활성화하기 위해 자동으로 멀티홉을 사용합니다.</string>
+    <string name="daita_description_slide_2_third_paragraph">일부 서버에는 %1$s가 활성화되어 있지 않습니다. 따라서 당사는 모든 서버에서 %1$s를 활성화하기 위해 자동으로 멀티홉을 사용합니다.</string>
     <string name="daita_info">“%1$s”을 활성화하면 %2$s가 활성화된 서버를 수동으로 선택해야 합니다. 이로 인해 “위치 선택” 창에서 호환되는 서버를 선택할 때까지 차단된 상태에 빠질 수 있습니다.</string>
     <string name="delete">삭제</string>
     <string name="delete_custom_list_confirmation_description">\"%1$s\"을(를) 삭제하시겠습니까?</string>
@@ -124,7 +124,6 @@
     <string name="device_inactive_description">이 장치를 제거했습니다. 다시 연결하려면 다시 로그인해야 합니다.</string>
     <string name="device_inactive_title">장치가 비활성 상태입니다.</string>
     <string name="device_inactive_unblock_warning">로그인하면 이 장치에서 인터넷 차단이 해제됩니다.</string>
-    <string name="device_ip_version_title">IP 버전</string>
     <string name="device_name">장치 이름</string>
     <string name="device_name_info_first_paragraph">이것은 장치에 할당된 이름입니다. Mullvad 계정에 로그인된 각 장치에는 앱이나 웹사이트에서 장치를 관리할 때 장치를 보다 쉽게 식별할 수 있는 고유한 이름이 부여됩니다.</string>
     <string name="device_name_info_second_paragraph">최대 5개의 장치에서 하나의 Mullvad 계정에 로그인할 수 있습니다.</string>
@@ -156,7 +155,6 @@
     <string name="enable_anyway">그래도 사용</string>
     <string name="enable_custom_dns">사용자 지정 DNS 서버 사용</string>
     <string name="enable_direct_only">%1$s 활성화</string>
-    <string name="enable_ipv6">IPv6 사용</string>
     <string name="enable_method">방법 활성화</string>
     <string name="encrypted_dns_proxy_info_message_part1">앱은 \"암호화된 DNS 프록시\" 방식을 사용하여 프록시 주소를 통해 Mullvad API와 통신합니다. 이는 DoH(DNS over HTTPS) 서버에서 주소를 검색한 다음, 그 주소를 사용해 당사 API 서버에 도달하는 방식으로 이루어집니다.</string>
     <string name="encrypted_dns_proxy_info_message_part2">당사 VPN에 연결되지 않은 경우, 연결 시 암호화된 DNS 프록시는 사용자의 비 VPN IP를 사용합니다. DoH 서버는 Quad 9, CloudFlare 등의 제공업체에서 호스팅합니다.</string>
@@ -238,7 +236,7 @@
     <string name="mullvad_owned_only">Mullvad 소유만</string>
     <string name="multihop">멀티홉</string>
     <string name="multihop_description">멀티홉은 사용자의 트래픽을 하나의 WireGuard 서버로 라우팅하고 다른 서버로 전달하여 추적을 더 어렵게 만듭니다. 그로 인해 대기 시간은 증가하지만 온라인 익명성은 증대됩니다.</string>
-    <string name="multihop_entry_disabled_description">%1$s 진입 서버가 현재 %2$s에 의해 재정의되었습니다. 진입 서버를 선택하려면 먼저 설정에서 \"%3$s\"을 활성화하거나 \"%4$s\"를 비활성화하세요.</string>
+    <string name="multihop_entry_disabled_description">%1$s 진입 서버가 현재 %2$s에 의해 재정의되었습니다. 진입 서버를 선택하려면 먼저 설정에서 \"%3$s\"을 활성화하거나 \"%2$s\"를 비활성화하세요.</string>
     <string name="name">이름</string>
     <string name="name_was_changed_to">이름이 %1$s(으)로 변경되었습니다</string>
     <string name="new_changelog_notification_message">업데이트 내역을 확인하려면 여기를 클릭하세요.</string>
@@ -392,5 +390,5 @@
     <string name="wireguard_port_title">WireGuard 포트</string>
     <string name="x_entry">%1$s(진입)</string>
     <string name="x_exit">%1$s(종료)</string>
-    <string name="x_via_x">%1$s을(를) 통한 %2$s</string>
+    <string name="x_via_x">%2$s을(를) 통한 %1$s</string>
 </resources>

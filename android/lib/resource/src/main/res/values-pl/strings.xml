@@ -113,7 +113,7 @@
     <string name="daita_description_slide_1_third_paragraph">Dzięki użyciu zaawansowanej sztucznej inteligencji możliwe jest analizowanie ruchu pakietów danych przychodzących i wychodzących z Twojego urządzenia (nawet jeśli ruch jest szyfrowany).</string>
     <string name="daita_description_slide_2_first_paragraph">Jeśli obserwator monitoruje te pakiety danych, %1$s znacznie utrudnia mu zidentyfikowanie witryn internetowych, które odwiedzasz lub z którymi się komunikujesz.</string>
     <string name="daita_description_slide_2_second_paragraph">%1$s w tym celu ostrożnie dodaje szum sieciowy i nadaje ten sam rozmiar wszystkim pakietom sieciowym.</string>
-    <string name="daita_description_slide_2_third_paragraph">Nie wszystkie nasze serwery obsługują %1$s. Dlatego automatycznie używamy funkcji wielokrotnego przeskoku, aby umożliwić działanie %2$s z dowolnym serwerem.</string>
+    <string name="daita_description_slide_2_third_paragraph">Nie wszystkie nasze serwery obsługują %1$s. Dlatego automatycznie używamy funkcji wielokrotnego przeskoku, aby umożliwić działanie %1$s z dowolnym serwerem.</string>
     <string name="daita_info">Po włączeniu opcji „%1$s” trzeba ręcznie wybrać serwer, który obsługuje %2$s. Może to skutkować zablokowaniem, dopóki nie wybierzesz zgodnego serwera w widoku „Wybierz lokalizację”.</string>
     <string name="delete">Usuń</string>
     <string name="delete_custom_list_confirmation_description">Usunąć „%1$s”?</string>
@@ -124,7 +124,6 @@
     <string name="device_inactive_description">Urządzenie usunięto. Aby połączyć się ponownie, musisz się ponownie zalogować.</string>
     <string name="device_inactive_title">Urządzenie nieaktywne</string>
     <string name="device_inactive_unblock_warning">Przejście do logowania odblokuje Internet na tym urządzeniu.</string>
-    <string name="device_ip_version_title">Wersja IP</string>
     <string name="device_name">Nazwa urządzenia</string>
     <string name="device_name_info_first_paragraph">Jest to nazwa przypisana do urządzenia. Każde urządzenie zalogowane na koncie Mullvad otrzymuje unikalną nazwę, która pozwala zidentyfikować je podczas zarządzania urządzeniami w aplikacji lub za pośrednictwem witryny internetowej.</string>
     <string name="device_name_info_second_paragraph">Na jednym koncie Mullvad może być zalogowanych maksymalnie 5 urządzeń.</string>
@@ -156,7 +155,6 @@
     <string name="enable_anyway">Mimo to włącz</string>
     <string name="enable_custom_dns">Użyj niestandardowego serwera DNS</string>
     <string name="enable_direct_only">Włącz %1$s</string>
-    <string name="enable_ipv6">Włącz IPv6</string>
     <string name="enable_method">Włącz metodę</string>
     <string name="encrypted_dns_proxy_info_message_part1">Dzięki metodzie „szyfrowany serwer proxy DNS” aplikacja będzie komunikować się z naszym interfejsem API Mullvad za pośrednictwem adresu serwera proxy. Odbywa się to poprzez pobranie adresu z serwera DNS over HTTPS (DoH), a następnie użycie go do połączenia z naszymi serwerami interfejsu API.</string>
     <string name="encrypted_dns_proxy_info_message_part2">Jeśli nie masz połączenia z naszą siecią VPN, szyfrowany serwer proxy DNS użyje Twojego własnego adresu IP bez VPN podczas łączenia. Serwery DoH są hostowane przez jednego z następujących dostawców: Quad 9 lub CloudFlare.</string>
@@ -238,7 +236,7 @@
     <string name="mullvad_owned_only">Wyłącznie firmy Mullvad</string>
     <string name="multihop">Wielokrotny przeskok</string>
     <string name="multihop_description">Funkcja wielokrotnego przeskoku kieruje Twój ruch przychodzący do jednego serwera WireGuard, a wychodzący wysyła z innego, co utrudnia jego śledzenie. Skutkuje to zwiększoną latencją, ale zwiększa anonimowość online.</string>
-    <string name="multihop_entry_disabled_description">Serwer wejściowy dla %1$s jest obecnie zastępowany przez %2$s. Aby wybrać serwer wejściowy, należy najpierw włączyć opcję „%3$s” lub wyłączyć opcję „%4$s” w ustawieniach.</string>
+    <string name="multihop_entry_disabled_description">Serwer wejściowy dla %1$s jest obecnie zastępowany przez %2$s. Aby wybrać serwer wejściowy, należy najpierw włączyć opcję „%3$s” lub wyłączyć opcję „%2$s” w ustawieniach.</string>
     <string name="name">Nazwa</string>
     <string name="name_was_changed_to">Nazwę zmieniono na %1$s</string>
     <string name="new_changelog_notification_message">Kliknij tutaj, aby zobaczyć, co nowego.</string>

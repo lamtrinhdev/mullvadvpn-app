@@ -955,7 +955,7 @@ msgstr ""
 #. Available placeholders:
 #. %(wireGuard)s - Will be replaced with WireGuard
 msgctxt "in-app-notifications"
-msgid "change tunnel protocol to %(wireGuard)s"
+msgid "change tunnel protocol to %(wireGuard)s."
 msgstr ""
 
 msgctxt "in-app-notifications"
@@ -2512,6 +2512,9 @@ msgstr ""
 msgid "Delete method?"
 msgstr ""
 
+msgid "Device IP version"
+msgstr ""
+
 msgid "Disable \"%s\" below to activate these settings."
 msgstr ""
 
@@ -2606,6 +2609,9 @@ msgid "Import successful, overrides active"
 msgstr ""
 
 msgid "Importing new overrides might replace some previously imported overrides."
+msgstr ""
+
+msgid "In-tunnel IPv6"
 msgstr ""
 
 msgid "Invalid or missing value \"%s\""

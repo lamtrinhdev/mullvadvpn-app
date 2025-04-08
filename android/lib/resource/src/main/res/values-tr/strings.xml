@@ -113,7 +113,7 @@
     <string name="daita_description_slide_1_third_paragraph">Gelişmiş yapay zeka kullanarak cihazınıza gelen ve giden veri paketlerinin trafiğini (trafik şifrelenmiş olsa bile) analiz etmek mümkündür.</string>
     <string name="daita_description_slide_2_first_paragraph">Bir gözlemci bu veri paketlerini izliyorsa, %1$s ziyaret ettiğiniz web sitelerini veya iletişim kurduğunuz alıcıları tespit etmesini önemli ölçüde zorlaştırır.</string>
     <string name="daita_description_slide_2_second_paragraph">%1$s, dikkatli bir şekilde ağ paraziti ekleyerek ve tüm ağ paketlerini aynı boyuta getirerek sizi izlenmekten korur.</string>
-    <string name="daita_description_slide_2_third_paragraph">%1$s, tüm sunucularımızda etkin değildir. Bu nedenle, %2$s özelliğini herhangi bir sunucuda etkinleştirmek için otomatik olarak çoklu geçişi kullanırız.</string>
+    <string name="daita_description_slide_2_third_paragraph">%1$s, tüm sunucularımızda etkin değildir. Bu nedenle, %1$s özelliğini herhangi bir sunucuda etkinleştirmek için otomatik olarak çoklu geçişi kullanırız.</string>
     <string name="daita_info">\"%1$s\" seçeneğini etkinleştirdiğinizde %2$s özellikli bir sunucuyu manuel olarak seçmeniz gerekir. Bu, \"Konum seç\" görünümünde uyumlu bir sunucu seçilene kadar engellenmiş durumda kalmanıza neden olabilir.</string>
     <string name="delete">Sil</string>
     <string name="delete_custom_list_confirmation_description">\"%1$s\" silinsin mi\"?</string>
@@ -124,7 +124,6 @@
     <string name="device_inactive_description">Bu cihazı kaldırdın. Tekrar bağlanmak için yeniden giriş yapmanız gerekecek.</string>
     <string name="device_inactive_title">Cihaz etkin değil</string>
     <string name="device_inactive_unblock_warning">Giriş yapmak bu cihazdaki internet engelini kaldıracaktır.</string>
-    <string name="device_ip_version_title">IP sürümü</string>
     <string name="device_name">Cihaz adı</string>
     <string name="device_name_info_first_paragraph">Bu, cihaza atanan addır. Mullvad hesabında oturum açan her cihaza, uygulamadaki veya web sitesindeki cihazlarınızı yönetirken tanımlamanıza yardımcı olacak benzersiz bir ad verilir.</string>
     <string name="device_name_info_second_paragraph">Bir Mullvad hesabı ile en fazla 5 cihazda oturum açabilirsiniz.</string>
@@ -156,7 +155,6 @@
     <string name="enable_anyway">Yine de etkinleştir</string>
     <string name="enable_custom_dns">Özel DNS sunucusu kullanın</string>
     <string name="enable_direct_only">%1$s ayarını etkinleştir</string>
-    <string name="enable_ipv6">IPv6\'yı etkinleştir</string>
     <string name="enable_method">Yöntemi etkinleştir</string>
     <string name="encrypted_dns_proxy_info_message_part1">\"Şifreli DNS proxy\'si\" yönteminde, uygulama bir proxy adresi üzerinden Mullvad API ile iletişim kurar. Bunun için bir DNS over HTTPS (DoH) sunucusundan bir adres alır ve bu adresi kullanarak API sunucularımıza bağlanır.</string>
     <string name="encrypted_dns_proxy_info_message_part2">VPN\'imize bağlı değilseniz Şifreli DNS proxy\'si bağlanırken VPN dışı IP\'nizi kullanır. DoH sunucuları şu sağlayıcılardan birinde barındırılır: Quad9 veya CloudFlare.</string>
@@ -238,7 +236,7 @@
     <string name="mullvad_owned_only">Sadece Mullvad\'a ait olanlar</string>
     <string name="multihop">Çoklu geçiş</string>
     <string name="multihop_description">Çoklu geçiş, trafiğinizi bir WireGuard sunucusundan diğerine yönlendirerek izlemeyi zorlaştırır. Bu, gecikmenin artmasına neden olur ancak çevrimiçi gizliliği artırır.</string>
-    <string name="multihop_entry_disabled_description">%1$s için giriş sunucusu şu anda %2$s tarafından geçersiz kılınıyor. Bir giriş sunucusu seçmek için lütfen önce \"%3$s\"\' seçeneğini etkinleştirin veya \"%4$s\" seçeneğini devre dışı bırakın.</string>
+    <string name="multihop_entry_disabled_description">%1$s için giriş sunucusu şu anda %2$s tarafından geçersiz kılınıyor. Bir giriş sunucusu seçmek için lütfen önce \"%3$s\"\' seçeneğini etkinleştirin veya \"%2$s\" seçeneğini devre dışı bırakın.</string>
     <string name="name">Ad</string>
     <string name="name_was_changed_to">Ad, %1$s olarak değiştirildi</string>
     <string name="new_changelog_notification_message">Yenilikleri incelemek için buraya tıklayın.</string>
@@ -392,5 +390,5 @@
     <string name="wireguard_port_title">WireGuard portu</string>
     <string name="x_entry">%1$s (Giriş)</string>
     <string name="x_exit">%1$s (Çıkış)</string>
-    <string name="x_via_x">%1$s aracılığıyla %2$s</string>
+    <string name="x_via_x">%2$s aracılığıyla %1$s</string>
 </resources>
